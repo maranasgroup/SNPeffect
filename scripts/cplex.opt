@@ -1,0 +1,13 @@
+epopt 1.0000001e-8
+epint 1.0000001e-8
+*mipemphasis 1
+varsel 0
+bndstrenind 1
+nodefileind 2
+workmem 2500
+rerun yes
+*preind 0
+scaind 1
+numericalemphasis 1
+eprhs 1.0000001e-8
+
