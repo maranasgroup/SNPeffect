@@ -564,7 +564,6 @@ f4.close()
 
 ####switch lower and upper metab ratios fr bwd rxns 
 
-print (deb)
 
 f1 = open(respath_forgams+'MetabCons_MinMaxMets_AllEcotypes.txt','r')
 data = f1.readlines()
@@ -957,7 +956,7 @@ for line in data:
 				rxn2eeco_dict[rxn].append(geno)
 		allgenos.append(geno)
 
-f1 = open(respath+'MetabCons_measuredMets_AllEcotypes.txt','r')
+f1 = open(respath_forgams+'MetabCons_measuredMets_AllEcotypes.txt','r')
 data = f1.readlines()
 f1.close()
 
