@@ -8,8 +8,8 @@ Input data is stored under data/. main.py makes input files for the GAMS file fi
 
 1) under data/
 - AllGenotypesInStudy.txt - list of genotypes in the study
-- Biomass_Cons_AllGenotypes.txt - relative growth rate of each genotype wrt the reference genotype
-- Biomass_ConsList_AllGenotypes.txt - list of constraints for the above file
+- Biomass_Cons_AllGenotypes.txt - relative growth rate of each genotype wrt the reference genotype (conforming to GAMS formatting)
+- Biomass_ConsList_AllGenotypes.txt - list of constraints for the above file (conforming to GAMS formatting)
 
 
 2) under data/gsm/
