@@ -4,7 +4,7 @@ This code corresponds to doi: [10.1111/tpj.14746](https://onlinelibrary.wiley.co
 
 ### SNPeffect: identifying functional roles of SNPs using metabolic networks
 
-Input data is stored under data. main.py makes input files for the GAMS file findSNPs.gms, which (currently) uses CPLEX to identify SNP activities. The following inputs are needed for main.py - 
+Input data is stored under data/. main.py makes input files for the GAMS file findSNPs.gms, which (currently) uses CPLEX to identify SNP activities. The following inputs are needed for main.py - 
 
 1) under data/
 - AllGenotypesInStudy.txt - list of genotypes in the study
